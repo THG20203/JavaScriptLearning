@@ -30,3 +30,8 @@ unit of information */
 /* values can be stored into variables - to be reused over and over */
 /* let firstName = "Jonas"; is declaring a variable. */
 
+Conventions for naming varaibles:
+camelCase - means that whenever have multiple words in a varaible name, write first name with lowercase, 
+next words with uppercase. 
+
+---------------------------------------------------------------------------------------------------------
