@@ -10,3 +10,5 @@ console.log("Jonas");
 /* values can be stored into variables - to be reused over and over */
 /* let firstName = "Jonas"; is declaring a variable. creates real variable in computers memory. */
 let firstName = "Jonas";
+/* can now put in variable name */
+console.log(firstName);
