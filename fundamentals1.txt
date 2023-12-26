@@ -26,3 +26,7 @@ interact with databases. javascript - native mobile applications - react native.
 /* value = piece of data, fundamental unit of info in programming. i.e. Jonas is a value */
 /* whatever the operation could be summarised as below would be value, cause value is smallest 
 unit of information */
+
+/* values can be stored into variables - to be reused over and over */
+/* let firstName = "Jonas"; is declaring a variable. */
+
