@@ -34,4 +34,7 @@ Conventions for naming varaibles:
 camelCase - means that whenever have multiple words in a varaible name, write first name with lowercase, 
 next words with uppercase. 
 
+javaScript can't start variables with numbers. would be Syntax error - mistake in writing code.
+varialbe names can only contain numbers, letters, underscores or dollar signs.
+
 ---------------------------------------------------------------------------------------------------------
