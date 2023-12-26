@@ -20,3 +20,4 @@ JavaScript = verbs - p.hide(); means hide the paragraph - doing something so is 
 JavaScript = dynamic effects and web applications in the browser - front end,
 and web applications on web servers. node.js - run backend applications. run on web server, 
 interact with databases. javascript - native mobile applications - react native.
+
