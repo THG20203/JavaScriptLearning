@@ -21,3 +21,8 @@ JavaScript = dynamic effects and web applications in the browser - front end,
 and web applications on web servers. node.js - run backend applications. run on web server, 
 interact with databases. javascript - native mobile applications - react native.
 
+--------------------------------------------------------------------------------------------------------
+
+/* value = piece of data, fundamental unit of info in programming. i.e. Jonas is a value */
+/* whatever the operation could be summarised as below would be value, cause value is smallest 
+unit of information */
