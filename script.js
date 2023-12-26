@@ -12,3 +12,5 @@ console.log("Jonas");
 let firstName = "Jonas";
 /* can now put in variable name */
 console.log(firstName);
+/* can't use reserved keywords */
+let new = 27;
