@@ -1,3 +1,5 @@
+GENERAL OVERVIEW
+
 /* JavaScript = high level object oriented, multi paradigm programming language */
 // high level - don't have to think about memory management whilst javascript runs our program
 // object oriented - mostly based on objects, for storing most kinds of data
@@ -23,6 +25,8 @@ interact with databases. javascript - native mobile applications - react native.
 
 --------------------------------------------------------------------------------------------------------
 
+VARIABLES & VALUES
+
 /* value = piece of data, fundamental unit of info in programming. i.e. Jonas is a value */
 /* whatever the operation could be summarised as below would be value, cause value is smallest 
 unit of information */
@@ -44,3 +48,5 @@ let new = 27;
 don't start variable name with upper case letter
 
 ---------------------------------------------------------------------------------------------------------
+
+DATA TYPES 
