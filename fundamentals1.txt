@@ -41,4 +41,6 @@ varialbe names can only contain numbers, letters, underscores or dollar signs.
 let new = 27;
 /* new = reserved keyword -> javascript */
 
+don't start variable name with upper case letter
+
 ---------------------------------------------------------------------------------------------------------
