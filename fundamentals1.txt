@@ -138,6 +138,14 @@ const birthYear = 1991;
 birthYear = 1990;
 /* this produces TypeError - Assignment to constant variable */
 
+/* fact that variables created with const are immutable also means we cannot declare empty const
+variables. */
+const job; produces -> Syntax error: missing initializer in const declaration.
+
+/* should use const by default, let if things will change in the future. Good to have as little 
+mutations as possible, because changing varialbes introduces potential for bugs. */
+
+
 
 
 
