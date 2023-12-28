@@ -122,7 +122,10 @@ corrected. */
 LET, CONST AND VAR
 
 Three ways of declaring variables in JavaScript.
+let + const introduced ES6 -> modern JS.
+var keyword old way declaring variables.
 
+let keyword -> declare variables that will change later. (i.e. during execution of our program).
 
 
 
