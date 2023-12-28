@@ -19,4 +19,4 @@ that we do not write the let again. */
 javascriptIsFun = "YES!";
 /* First time we declare a new varaible, we need to do it using let. But then, when we want to change the 
 value - of the varaible, we simply write it again without the let. */
-/* So above, we are assigning new value to the varaible javascriptIsFun */
+/* So above, we are assigning new value to the variable javascriptIsFun */
