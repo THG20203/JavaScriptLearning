@@ -69,5 +69,13 @@ Instead, data types are determined automatically.
 
 JavaScript - value has a type. NOT the variable. Variables simply store a value that has as type. 
 
+Another application of dynamic typing is later in our code, we can assign a new value in a different data 
+type to the same variable without a problem.
+Example:
+variable x can initially be a number then later a string. Can be useful but also difficult to find bugs. 
+
+
+
+
 
 
