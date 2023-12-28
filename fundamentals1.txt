@@ -63,3 +63,11 @@ for decimals and integers
 5. null - also means 'empty value'
 6. symbol (ES2015) - unique and cannot be changed (not useful now)
 7. BigInt (ES2020) - larger integars than number type can hold.
+
+JavaScript has dynamic typing - we do not have to manually define data type of the value stored in a variable.
+Instead, data types are determined automatically.
+
+JavaScript - value has a type. NOT the variable. Variables simply store a value that has as type. 
+
+
+
