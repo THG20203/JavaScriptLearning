@@ -74,6 +74,18 @@ type to the same variable without a problem.
 Example:
 variable x can initially be a number then later a string. Can be useful but also difficult to find bugs. 
 
+Boolean = true/ false. 
+just writing 'true' is a boolean value - i.e. console.log(true) -> not a string cause printed in pink rather
+than white as a string would be printed in within the console.
+
+/* can store booleans in variables */
+let javascriptIsFun = true;
+/* remember, variable declaration needs to happen before the log, because javascript is executed
+from top to bottom */
+console.log(javascriptIsFun);
+
+
+
 
 
 
