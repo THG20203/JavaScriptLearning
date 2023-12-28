@@ -145,6 +145,14 @@ const job; produces -> Syntax error: missing initializer in const declaration.
 /* should use const by default, let if things will change in the future. Good to have as little 
 mutations as possible, because changing varialbes introduces potential for bugs. */
 
+/* var legacy reasons - important. Old way writing variables prior to ES6. */
+/* Works similar to let -> can mutate. */
+var job = "programmer";
+job = "teacher";
+
+/* let is blockscoped, var is function scoped */
+
+
 
 
 
