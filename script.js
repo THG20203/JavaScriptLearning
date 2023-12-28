@@ -10,3 +10,9 @@ console.log(ageJonas, ageSarah);
 more than one value in a console.log */
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // please note from above code -> 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+/* Another use case for plus operator -> join strings -> concatenate */
+const firstName = "Tristan";
+const lastName = "Griffiths";
+/* to add a space? add empty string */
+console.log(firstName + " " + lastName);
