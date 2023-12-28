@@ -10,4 +10,6 @@ value */
 console.log(typeof true);
 console.log(typeof javascriptIsFun);
 console.log(typeof 23);
+/* need quotes for a string - otherwise reference error - because javascript sees it as a variable. 
+JavaScript is looking for a variable that doesn't exist. We never declared a variable called Tristan */
 console.log(typeof "Tristan");

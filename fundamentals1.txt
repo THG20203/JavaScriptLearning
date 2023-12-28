@@ -90,6 +90,8 @@ value */
 console.log(typeof true); - will show boolean
 console.log(typeof javascriptIsFun); - will show boolean
 console.log(typeof 23); - will show number
+/* need quotes for a string - otherwise reference error - because javascript sees it as a variable. 
+JavaScript is looking for a variable that doesn't exist. We never declared a variable called Tristan */
 console.log(typeof "Tristan"); - will show string
 
 
