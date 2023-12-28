@@ -84,6 +84,13 @@ let javascriptIsFun = true;
 from top to bottom */
 console.log(javascriptIsFun);
 
+/* typeof is an operator like + or - operator that we can use to the type of a value */
+/* console.log typeof true -> will show new value in console, which is a string which is the typeof 
+value */
+console.log(typeof true); - will show boolean
+console.log(typeof javascriptIsFun); - will show boolean
+console.log(typeof 23); - will show number
+console.log(typeof "Tristan"); - will show string
 
 
 
