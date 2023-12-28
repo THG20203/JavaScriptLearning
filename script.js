@@ -16,3 +16,9 @@ const firstName = "Tristan";
 const lastName = "Griffiths";
 /* to add a space? add empty string */
 console.log(firstName + " " + lastName);
+
+/* assignment operators. most simple is = operator */
+let x = 10 + 5;
+/* in the code above, the = is already an operator. In the code above, 
+x will be assinged 15 because the + operator is executed before the assignment operator.
+(This is based on operator precedence - which we'll explore shortly). */
