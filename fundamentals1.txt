@@ -127,6 +127,12 @@ var keyword old way declaring variables.
 
 let keyword -> declare variables that will change later. (i.e. during execution of our program).
 
+/* shown example of let - reassigning value to a variable */
+/* we mutate the variable in this case */
+let age = 30;
+age = 31;
+
+
 
 
 
