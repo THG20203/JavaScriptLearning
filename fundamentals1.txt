@@ -102,6 +102,22 @@ javascriptIsFun = "YES!";
 value - of the varaible, we simply write it again without the let. */
 /* So above, we are assigning new value to the variable javascriptIsFun */
 
+/* undefined - value taken by a variable that is not yet defined. */
+/* undefined means an empty value - define variable without value */
+let year;
+console.log(year);
+console.log(typeof year);
+
+/* value of both is undefined -> what this means is whenever we declare an empty variable,
+the value of the variable will be undefined and the type will be undefined. */
+
+/* error typeof operator - typeof null - similar to undefined. both the value and 
+the type of the value are null. */
+console.log(typeof null);
+/* JavaScript will say the type of null (above) is object. Error in JavaScript - never 
+corrected. */
+
+
 
 
 
