@@ -152,7 +152,17 @@ job = "teacher";
 
 /* let is blockscoped, var is function scoped */
 
+---------------------------------------------------------------------------------------------------------
 
+BASIC OPERATORS 
+
+Operator allows us to transfer values /  combine multiple values.
+Categories of operators -> mathematical, comparison, logical, Assignment
+
+/* Mathematical operator -> use minus operator to solve simple problem. */
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah);
 
 
 
