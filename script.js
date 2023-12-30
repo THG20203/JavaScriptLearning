@@ -14,3 +14,7 @@ console.log(ageJonas > ageSarah);
 /* < less than */
 /* >=, greater equal */
 /* <= less than equal */
+
+/////
+
+/* greator or equal */
