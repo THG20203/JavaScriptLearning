@@ -15,6 +15,23 @@ console.log(ageJonas > ageSarah);
 /* >=, greater equal */
 /* <= less than equal */
 
-/////
+/* greator equal application */
+/* testing if sarah is of full age - she must be at least 18 */
+/* She needs to be greater than 18 or exactly 18 */
+console.log(ageSarah >= 18);
 
-/* greator or equal */
+// console has access to all variables in the current browser tab
+
+/* can store results if need later in code. variable hold boolean value. */
+const isFullAge = ageSarah >= 18;
+
+/* what if we don't want intermediate age variables and do a comparison in one go. */
+console.log(now - 1991 > now - 2018);
+
+/* Question - how does JavaScript know if to do the maths first or comparison first. */
+/* Thought: Is the first thing to do now -1991 = 46, then JavaScript could compare 46 to now after
+the > right away. */
+/* If the 'Thought' was true, JavaScript would be proceeding to read the code from left to right.
+But we will see that it doesn't. JavaScript has some way of knowing first it should do 
+now - 1991 then it should do now - 2018 only at end when has two ages will compare them with operator 
+in the middle. */
