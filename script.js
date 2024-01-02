@@ -27,5 +27,7 @@ is because:
 19 / 2 = 9.5 (ageSarah / 2) 
 then 9.5 + 46 (ageJonas) = 55.5 */
 
-/* so we should make sure ageJonas + ageSarah operation is completed first. */
+/* so we should make sure ageJonas + ageSarah operation is completed first. so put in 
+parentheses cause it has highest precedence in javascript (21) as shown on the mdn docs. */
 const averageAge = (ageJonas + ageSarah) / 2;
+/* now result of this is an average of 32 */
