@@ -11,6 +11,9 @@ BMIMark and BMIJohn.
 4. BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a 
 higher BMI than John. Log it to the console too
 
-TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
+TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. 
+TEST DATA 2: John weighs 92 kg and is 1.95 m tall. */
 
-/* part 1 - */
+/* part 1 - storing variables */
+const massmark = 78;
+const heightMark = 1.69;
