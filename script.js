@@ -39,3 +39,10 @@ let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y);
 /* console.log of x, y above produced 10 10 */
+/* why are x and y both 10? When JavaScript finds this line of code to execute, it'll 
+look at all the operators that are present, see the minus operators, start with these ->
+high presendence 
+so do:
+x = y = 10 
+Explain above? 10 is the result of doing 25 - 10 -5
+*/
