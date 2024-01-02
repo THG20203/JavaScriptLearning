@@ -17,3 +17,5 @@ TEST DATA 2: John weighs 92 kg and is 1.95 m tall. */
 /* part 1 - storing variables */
 const massmark = 78;
 const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
