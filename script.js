@@ -55,5 +55,5 @@ so at the end x and y are worth 10. x is the last thing to be evaluated to 10.
 
 x = y = 25 - 10 - 5;
 /* why is the right to left rather than left to right? */
-/* if it was left to right then x would be equal to y, and y is undefined at this point,
-because declared as an empty variable  */
+/* if it was left to right then x would be equal to y, which would be undefined,
+because declared as an empty variable then y would be equal to 10. */
