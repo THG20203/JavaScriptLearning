@@ -12,3 +12,5 @@ BMIMark and BMIJohn.
 higher BMI than John. Log it to the console too
 
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
+
+/* part 1 - */
