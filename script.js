@@ -44,5 +44,11 @@ look at all the operators that are present, see the minus operators, start with 
 high presendence 
 so do:
 x = y = 10 
-Explain above? 10 is the result of doing 25 - 10 -5
+Explain above? 10 is the result of doing 25 - 10 - 5
+Now we have only two operators left -> equals operators and they are now executed. 
+but these are executed right to left. so:
+y = 10
+then 
+x = 10
+so at the end x and y are worth 10. x is the last thing to be evaluated to 10. 
 */
