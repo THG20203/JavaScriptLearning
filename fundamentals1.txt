@@ -239,6 +239,12 @@ But we will see that it doesn't. JavaScript has some way of knowing first it sho
 now - 1991 then it should do now - 2018 only at end when has two ages will compare them with operator 
 in the middle. */
 
+---------------------------------------------------------------------------------------------------------
+
+OPERATOR precedence
+
+
+
 
 
 
