@@ -34,5 +34,8 @@ most mathematical operators - left to right.
 console.log(25 - 10 - 5);
 
 /* assingment good example of right to left execution */
-/* define two variables at the same time */
+/* define two variables at the same time - leave as undefined */
 let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+/* console.log of x, y above produced 10 10 */
