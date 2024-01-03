@@ -28,7 +28,8 @@ can write a string more normal way -> then basically insert variables directly i
 /* SECOND look at template literals */
 /* template literal -> use backticks to tell javascript we're writing a string -> backticks above 
 'tab' on the keyboard */
-/* now write string and insert variables in there with ${variablename} */
-const jonasNew = `I'm ${firstName}`;
+/* now write string and insert variables in there with ${variablename}. We can also write any 
+javascript inside of ${} */
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${teacher}`;
 /* logging to console to test */
 console.log(jonasNew);
