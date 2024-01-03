@@ -11,14 +11,21 @@ BMIMark and BMIJohn.
 4. BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a 
 higher BMI than John. Log it to the console too
 
-TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
+TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weighs 95 kg and is 1.88 m tall. John weighs 85 kg and is 1.76 m tall. */
 
 /* part 1 - storing variables. Use let instead of const? Value susceptible to change especially
 the mass. However, still decided to use const - use const by default */
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+/* TEST DATA 1 */
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+/* TEST DATA 2 */
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
 
 /* part 2 - calculate mark and johns BMI's */
 const BMIMark = massMark / heightMark ** 2;
@@ -29,5 +36,9 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 /* part 3 - log results to console */
 console.log(BMIMark, BMIJohn, markHigherBMI);
-/* BMIMark = higher than BMIJohn - 27.31 etc vs 24.19 */
-/* markHigherBMI -> we expect this one to be true, and console.log does indeed say true. */
+
+/* test data 1 BMIMark = higher than BMIJohn - 27.31 etc vs 24.19 
+markHigherBMI -> we expect this one to be true, and console.log does indeed say true. */
+
+/* test data 2 BMIJohn = higher than BMIMark - 27.44 etc vs 26.88 
+markHigherBMI -> we expect this one to be false, and console.log does indeed say false */
