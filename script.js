@@ -24,10 +24,11 @@ const heightJohn = 1.95;
 /* part 2 - calculate mark and johns BMI's */
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
-/* if BMI of Mark is higher than the BMI of John -> what are comparison operators for.
- */
+/* if BMI of Mark is higher than the BMI of John the result of the whole operator 
+below will be true. Otherwise, it will be false. */
 const markHigherBMI = BMIMark > BMIJohn;
 
 /* part 3 - log results to console */
-console.log(BMIMark, BMIJohn);
+console.log(BMIMark, BMIJohn, markHigherBMI);
 /* BMIMark = higher than BMIJohn - 27.31 etc vs 24.19 */
+/* markHigherBMI -> we expect this one to be true, and console.log does indeed say true. */
