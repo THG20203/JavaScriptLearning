@@ -1,4 +1,6 @@
 /* Strings - easy way to build them = template literal */
+
+/* FIRST look at strings independently */
 /* new variables - to later be concatenated  - build a string. */
 const firstName = "Jonas";
 const job = "teacher";
@@ -18,5 +20,12 @@ const jonas =
 /* result of (year - birthYear) will be a number -> rest of what we're adding is strings so how are
 is this going to work? type coercion. */
 /* javascript convert number to string so it can concatenate them, join them with rest of string. */
-
 console.log(jonas);
+
+/* Since ES6 -> have much better tool for doing this -> template literals. With template literals
+can write a string more normal way -> then basically insert variables directly into string. */
+
+/* SECOND look at template literals */
+/* template literal -> use backticks to tell javascript we're writing a string -> above tab on the 
+keyboard */
+const jonasNew = ``;
