@@ -26,6 +26,9 @@ console.log(jonas);
 can write a string more normal way -> then basically insert variables directly into string. */
 
 /* SECOND look at template literals */
-/* template literal -> use backticks to tell javascript we're writing a string -> above tab on the 
-keyboard */
-const jonasNew = ``;
+/* template literal -> use backticks to tell javascript we're writing a string -> backticks above 
+'tab' on the keyboard */
+/* now write string and insert variables in there with ${variablename} */
+const jonasNew = `I'm ${firstName}`;
+/* logging to console to test */
+console.log(jonasNew);
