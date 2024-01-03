@@ -11,8 +11,7 @@ BMIMark and BMIJohn.
 4. BONUS: Create a boolean variable markHigherBMI containing information about whether Mark has a 
 higher BMI than John. Log it to the console too
 
-TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. 
-TEST DATA 2: John weighs 92 kg and is 1.95 m tall. */
+TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall. */
 
 /* part 1 - storing variables. Use let instead of const? Value susceptible to change especially
 the mass. However, still decided to use const - use const by default */
