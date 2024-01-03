@@ -14,8 +14,17 @@ higher BMI than John. Log it to the console too
 TEST DATA 1: Marks weighs 78 kg and is 1.69 m tall. 
 TEST DATA 2: John weighs 92 kg and is 1.95 m tall. */
 
-/* part 1 - storing variables */
-const massmark = 78;
+/* part 1 - storing variables. Use let instead of const? Value susceptible to change especially
+the mass. However, still decided to use const - use const by default */
+const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
+
+/* part 2 - calculate mark and johns BMI's */
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+/* part 3 - log results to console */
+console.log(BMIMark, BMIJohn);
+/* BMIMark = higher than BMIJohn - 27.31 etc vs 24.19 */
