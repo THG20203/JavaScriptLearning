@@ -11,4 +11,10 @@ Then use the birthYear to calculate the age */
 const year = 2037;
 
 /* use + sign to concatenate strings */
-const jonas = "I'm " + firstName + ", a " + (year - birthYear);
+/* need to put year - birthYear between parentheses -> so will do the calculation first, and then 
+the concatenation. */
+const jonas =
+  "I'm " + firstName + ", a " + (year - birthYear) + "years old" + job + "!";
+/* result of (year - birthYear) will be a number -> rest of what we're adding is strings so how are
+is this going to work? type coercion. */
+/* javascript convert number to string so it can concatenate them, join them with rest of string. */
