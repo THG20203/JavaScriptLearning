@@ -24,6 +24,9 @@ const heightJohn = 1.95;
 /* part 2 - calculate mark and johns BMI's */
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
+/* if BMI of Mark is higher than the BMI of John -> what are comparison operators for.
+ */
+const markHigherBMI = BMIMark > BMIJohn;
 
 /* part 3 - log results to console */
 console.log(BMIMark, BMIJohn);
