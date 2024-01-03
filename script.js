@@ -30,6 +30,6 @@ can write a string more normal way -> then basically insert variables directly i
 'tab' on the keyboard */
 /* now write string and insert variables in there with ${variablename}. We can also write any 
 javascript inside of ${} */
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${teacher}`;
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}`;
 /* logging to console to test */
 console.log(jonasNew);
