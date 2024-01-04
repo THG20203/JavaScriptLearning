@@ -15,4 +15,8 @@ const isOldEnough = age >= 18;
 
 /* using isOldEnough variable here in if statment as our CONDITION */
 /* We already know this will always be a BOOLEAN -> important:
-cause the value of a boolean needs to be true, so code in {} will execute */
+cause the value of a boolean needs to be true, so code in {} will execute.
+If flase not executed. */
+if (isOldEnough) {
+  console.log("Sarah can start driving license");
+}
