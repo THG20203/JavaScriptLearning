@@ -22,6 +22,65 @@ x?.y
 - associativity (the direction):
 left-to-right
 
+17c: computer member access
+- how it looks:
+x[y]
+- associativity (the direction):
+n/a
+
+17d: function call 
+- how it looks:
+x(y)
+- associativity (the direction):
+n/a
+
+16: new 
+new without argument list 
+- how it looks:
+new x
+- associativity (the direction):
+n/a
+
+15: postfix operators
+15a: postfix increment
+postfix increment
+- how it looks:
+x++
+- associativity (the direction):
+n/a
+
+15b: postfix decrement
+- how it looks:
+x--
+- associativity (the direction):
+n/a
+
+15c: prefix decrement
+- how it looks:
+--x
+- associativity (the direction):
+n/a
+
+                                     Post-Increment (variable++):
+This operator first returns the current value of the variable and then increments it by 1.
+Example:
+let x = 5;
+let y = x++;
+
+console.log(x); // Output: 6
+console.log(y); // Output: 5
+
+- In the line let y = x++;, the post-increment operator (x++) means that the current
+value of x is assigned to y, and then x is incremented by 1.
+- So, when you execute let y = x++;, the following sequence of events occurs:
+
+1. y is assigned the current value of x, which is 5.
+2. After the assignment, x is incremented by 1.
+
+Therefore, after these steps, x becomes 6, but y retains the original value of x, which was 5.
+
+
+
 
 
 
