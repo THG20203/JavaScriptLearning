@@ -1,0 +1,31 @@
+Highest precedence 18 to lowest precedence 1
+
+- Not all syntax included here are "operators" in the strict sense. For example, spread ...
+and arrow => are typically not regarded as operators. 
+
+18: grouping 
+- how it looks:
+(x) 
+- associativity (the direction):
+n/a
+
+17: access and call
+17a: member access
+- how it looks:
+x.year
+- associativity (the direction):
+left-to-right
+
+17b: optional chaining 
+- how it looks:
+x?.y
+- associativity (the direction):
+left-to-right
+
+
+
+
+
+
+
+
