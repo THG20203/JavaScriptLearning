@@ -96,6 +96,31 @@ before its value is assigned to b.
 - how it looks
 ++x
 - associativity (the direction):
+n/a
+
+14b: Prefix decrement
+- how it looks
+--x
+- associativity (the direction):
+n/a
+
+14c: Logical NOT
+- how it looks
+!x
+- associativity (the direction):
+n/a
+
+14d: Bitwise NOT
+- how it looks
+~x
+- associativity (the direction):
+n/a 
+
+14e: Unary plus
+- how it looks
++x
+- associativity (the direction):
+n/a 
 
 
 
