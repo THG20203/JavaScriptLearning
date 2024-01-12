@@ -91,6 +91,14 @@ console.log(b); // Output: 11
 In this case, both a and b end up with the value 11 because a is incremented 
 before its value is assigned to b.
 
+14: Prefix Operators
+14a: Prefix increments
+- how it looks
+++x
+- associativity (the direction):
+
+
+
 
 
 
