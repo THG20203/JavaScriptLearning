@@ -122,6 +122,46 @@ n/a
 - associativity (the direction):
 n/a 
 
+14f: Unary negation
+- how it looks
+-x
+- associativity (the direction):
+n/a
+
+14g: typeof x
+- how it looks
+typeof x
+- associativity (the direction):
+n/a
+
+14h: void x
+- how it looks
+void x
+- associativity (the direction):
+n/a
+
+14i: delete x
+- how it looks
+delete x
+- associativity (the direction):
+n/a
+
+14j: await x
+- how it looks
+await x
+- associativity (the direction):
+n/a
+
+13: exponation
+- how it looks
+x ** y
+- associativity (the direction):
+right-to-left
+
+
+
+
+
 
 
 
