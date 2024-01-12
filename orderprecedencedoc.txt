@@ -59,37 +59,7 @@ n/a
 - how it looks:
 --x
 - associativity (the direction):
-n/a
-
-                                     Post-Increment (variable++):
-This operator first returns the current value of the variable and then increments it by 1.
-Example:
-let x = 5;
-let y = x++;
-
-console.log(x); // Output: 6
-console.log(y); // Output: 5
-
-- In the line let y = x++;, the post-increment operator (x++) means that the current
-value of x is assigned to y, and then x is incremented by 1.
-- So, when you execute let y = x++;, the following sequence of events occurs:
-
-1. y is assigned the current value of x, which is 5.
-2. After the assignment, x is incremented by 1.
-
-Therefore, after these steps, x becomes 6, but y retains the original value of x, which was 5.
-
-                                     Pre-Increment (variable++):
-This operator first increments the value of the variable by 1 and then returns the updated value.
-Example:
-let a = 10;
-let b = ++a;
-
-console.log(a); // Output: 11
-console.log(b); // Output: 11
-
-In this case, both a and b end up with the value 11 because a is incremented 
-before its value is assigned to b.
+n/a                         
 
 14: Prefix Operators
 14a: Prefix increments
@@ -156,7 +126,63 @@ n/a
 - how it looks
 x ** y
 - associativity (the direction):
+left-to-right
+
+12: multiplicative operators
+- how it looks
+x * y
+x / y
+x % y
+- associativity (the direction):
+left-to-right
+
+11: additive operators 
+-how it looks
+x + y
+x - y
+- associativity (the direction):
+left-to-right
+
+10: bitwise shift 
+- how it looks
+x << y - left shift
+x >> y - right shift
+x >>> y - unsigned right shift
+
+9: relational operators
+
+2: assignment and miscellaneous 
+- how it looks
+x = y
+x += y
+x -= y
+x **= y
+x *= y
+x /= y
+x %=y
+x <<= y
+x >>= y
+x >>>= y
+x &= y
+x ^= y
+x |= y
+x &&= y
+x ||= y
+x ??= y
+
+- associativity (the direction):
 right-to-left
+
+1: comma operator
+- how it looks 
+x, y
+- associativity (the direction):
+left-to-right
+
+
+
+
+
 
 
 
