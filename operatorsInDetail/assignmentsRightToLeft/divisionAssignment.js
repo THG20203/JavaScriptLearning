@@ -1,5 +1,6 @@
 /* The division assignment (/=) operator performs division on the 
 two operands and assigns the result to the left operand. */
+/* right to left */
 let a = 3;
 
 a /= 2;
