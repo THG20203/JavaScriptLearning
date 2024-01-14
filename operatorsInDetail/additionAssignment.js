@@ -17,3 +17,9 @@ For strings, the += operator performs string concatenation.
 It appends the string on the right (" world") to the existing value of b ("hello"), 
 and the result ("hello world") is assigned back to b. Therefore, the 
 output of console.log(b) is "hello world". */
+
+// Summary
+/* In summary, the += operator is used for compound assignment. 
+It adds the value on the right to the variable on the left and assigns 
+the result back to the variable. When used with a string variable, 
+it concatenates the strings. */
