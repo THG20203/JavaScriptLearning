@@ -1,0 +1,2 @@
+/* assignment */
+x = y;
