@@ -1,6 +1,6 @@
 /* The addition assignment (+=) operator performs addition (which is either numeric addition or 
     string concatenation) on the two operands and assigns the result to the left operand. */
-
+/* right to left */
 let a = 2;
 let b = "hello";
 
