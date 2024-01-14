@@ -1,5 +1,6 @@
 /* The subtraction assignment (-=) operator performs subtraction on the two operands
 and assigns the result to the left operand. */
+/* right to left */
 let a = 2;
 
 console.log((a -= 3));
