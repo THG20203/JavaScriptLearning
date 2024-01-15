@@ -26,3 +26,5 @@ console.log("I am " + 23 + " years old");
 /* Type Coercion Example 2: */
 /* - operator triggers coercion from string to number. */
 console.log("23" - "10" - 3); // will equal 3
+/* + operator triggers coercion from number to string. */
+console.log("23" + "10" + 3); // will equal 23103
