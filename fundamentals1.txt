@@ -499,6 +499,32 @@ The whole code does not just execute in a linear way. JavaScript does not just e
 code in a linear way. Instead we can now control blocks of code that should execute and 
 blocks that shouldn't - why its called a control structure. */
 
+/* Another example of if/ else now lets create a variable conditionally and 
+not just use console.log */
+const birthYear = 2005;
+
+/* create another variable called century, will contain century in which this person
+was born. */
+
+/* to make this work, need to define century outside if/ else block */
+/* WHY? Any variable defined inside code block will not be accessible outside
+of the block. So define century as empty, assign it values in the code blocks themselves. */
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+Knowledge recap:
+if else statment recap - we can take decisions using code -> using the if/else statment.
+For that, we write if() in the parenthese we need a condition. 
+
+Parentheses are ().
+
+Condition 
 
 
 
