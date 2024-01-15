@@ -11,9 +11,10 @@ console.log(BMIMark, BMIJohn);
 /* write if else statement - could have written markHigherBMI, but more
 common to write condition directly in parentheses. */
 if (BMIMark > BMIJohn) {
-  console.log("Mark's BMI is higher than John's!");
+  /* using template literals -> include BMI values in the output */
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
 } else {
-  console.log("John's BMI is higher than Mark's");
+  console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})`);
 }
 
 /* see as a result of if statement in the console:
