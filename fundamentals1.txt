@@ -524,7 +524,11 @@ For that, we write if() in the parenthese we need a condition.
 
 Parentheses are ().
 
-Condition 
+Condition is any code that returns a true or false value. 
+if (birthYear => 2000) is a great example, because => operator will return true or false. 
+
+We can use => to create a condition, which will execute the first block if true, else block 
+if flase or no code if no else block.
 
 
 
