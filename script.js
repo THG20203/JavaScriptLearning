@@ -17,8 +17,12 @@ console.log(String(23));
 
 /* Type coercion - javascript automatically converts types behind the scenes for us */
 /* Type coercion happens when an operator is dealing with two values that have different types. */
-/* In example below have string, number then string */
+/* Type Coercion Example 1: */
+/* + operator triggers coercion from number to string. */
 console.log("I am " + 23 + " years old");
 
-/* Above works cause of type coercion. + operator triggers coercion to strings. Whenever an operation
-between a string and a number, the number will be converted to a string. */
+/* Same happens with template literals. It also takes number values and converts to string. */
+
+/* Type Coercion Example 2: */
+/* - operator triggers coercion from string to number. */
+console.log("23" - "10" - 3); // will equal 3
