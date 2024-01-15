@@ -7,12 +7,12 @@ was born. */
 
 /* to make this work, need to define century outside if/ else block */
 /* WHY? Any variable defined inside code block will not be accessible outside
-of the block. */
+of the block. So define century as empty, assign it values in the code blocks themselves. */
+let century;
+
 if (birthYear <= 2000) {
-  let century = 20;
+  century = 20;
 } else {
-  let centruy = 21;
+  century = 21;
 }
 console.log(century);
-/* Proof of issue with defining variables inside of code block console.log produces
-Uncaught ReferenceError: century is not defined */
