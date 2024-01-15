@@ -28,3 +28,6 @@ console.log("I am " + 23 + " years old");
 console.log("23" - "10" - 3); // will equal 3
 /* + operator triggers coercion from number to string. */
 console.log("23" + "10" + 3); // will equal 23103
+/* multiple and divide are same as minus -> converts to number */
+console.log("23" * "2"); // will equal 46
+console.log("23" / "2"); // will equal 11.5
