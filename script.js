@@ -13,5 +13,7 @@ console.log(typeof NaN);
 
 /* converting number to string */
 console.log(String(23));
+/* JavaScript can convert to number, string or boolean. 3 types ONLY */
 
 /* Type coercion - javascript automatically converts types behind the scenes for us */
+/* Type coercion happens when an operator is dealing with two values that have different types */
