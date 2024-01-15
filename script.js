@@ -18,3 +18,8 @@ if (BMIMark > BMIJohn) {
 
 /* see as a result of if statement in the console:
 John's BMI is higher than Mark's */
+
+/* this gave me - 
+console.log(BMIMark, BMIJohn);
+26.87 and 27.44
+so Johns BMI is higher. */
