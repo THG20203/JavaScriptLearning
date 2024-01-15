@@ -16,4 +16,9 @@ console.log(String(23));
 /* JavaScript can convert to number, string or boolean. 3 types ONLY */
 
 /* Type coercion - javascript automatically converts types behind the scenes for us */
-/* Type coercion happens when an operator is dealing with two values that have different types */
+/* Type coercion happens when an operator is dealing with two values that have different types. */
+/* In example below have string, number then string */
+console.log("I am " + 23 + " years old");
+
+/* Above works cause of type coercion. + operator triggers coercion to strings. Whenever an operation
+between a string and a number, the number will be converted to a string. */
