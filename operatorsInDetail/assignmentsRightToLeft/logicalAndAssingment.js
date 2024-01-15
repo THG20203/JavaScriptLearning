@@ -1,7 +1,7 @@
 /* The logical AND assignment (&&=) operator only evaluates the right 
 operand and assigns to the left if the left operand is truthy. */
+/* right to left */
 let a = 1;
-let b = 0;
 
 a &&= 2;
 console.log(a);
@@ -15,7 +15,3 @@ left-hand side is falsy, it leaves the variable unchanged. */
 
 /* Yes, the &&= operator is evaluated from right to left. This means 
 that the expression a &&= 2; is equivalent to a = a && 2;. */
-
-b &&= 2;
-console.log(b);
-// Expected output: 0
