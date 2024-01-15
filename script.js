@@ -11,4 +11,7 @@ console.log(Number("Jonas"));
 /* NaN typeof will be number - hence NaN maeaning invalid number rather than not a number */
 console.log(typeof NaN);
 
+/* converting number to string */
+console.log(String(23));
+
 /* Type coercion - javascript automatically converts types behind the scenes for us */
