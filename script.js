@@ -14,6 +14,6 @@ if (favourite === 23) {
   console.log("Number is not 23 or 7");
 }
 
-/* theres a operator for different -> if numbeer is not 23 */
+/* theres a operator for different -> if number is not 23 */
 /* !== is strict version */
 if (favourite !== 23) console.log("Why not 23?");
