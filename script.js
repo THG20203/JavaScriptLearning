@@ -31,3 +31,7 @@ console.log("23" + "10" + 3); // will equal 23103
 /* multiple and divide are same as minus -> converts to number */
 console.log("23" * "2"); // will equal 46
 console.log("23" / "2"); // will equal 11.5
+
+let n = "1" + "1"; // will equal "11" + converts to string;
+n = n - 1; // - operator converts to number
+console.log(n); // will equal 10
