@@ -15,3 +15,13 @@ if (money) {
 } else {
   console.log("You should get a job!");
 }
+
+/* another use case -> truthy and falsy values = check if variable is defined or not */
+let height;
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is UNDEFINED");
+}
+
+/* result will be the else block -> Height is UNDEFINED */
