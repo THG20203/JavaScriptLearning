@@ -18,5 +18,8 @@ console.log(18 === 19); // will equal false
 /* strict === equality operator, its strict because doesn't perform type coercion. Only 
 returns true when both values are exactly the same */
 /* loose == equality operator does type coercion. */
-/* will equal true even though one a string, one a number because of type coercion */
+/* will equal true even though one a string, one a number because of type coercion.
+string 18 will be converted to number. */
 console.log("18" == 18);
+/* whereas "18" === 18 will be false */
+console.log("18" === 18);
