@@ -25,3 +25,5 @@ if (height) {
 }
 
 /* result will be the else block -> Height is UNDEFINED */
+/* height is undefined cause didn't assign value. undefined is falsy value so goes to 
+else block. height is converted to a boolean and height is undefined. */
