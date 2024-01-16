@@ -9,7 +9,13 @@ A: Sarah has a driver's license
 B: Sarah has good vision
 
 A and B 
-"Sarah has a driver's license AND good vision.
-
+"Sarah has a driver's license AND good vision."
 true when ALL are true - no matter how many variables.
+
+A or B
+"Sarah has a driver's license or good vision."
+true when ALL are true and if one is true
+
+Not A, not B 
+inverts true/false value
 */
