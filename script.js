@@ -11,3 +11,7 @@ to a boolean. */
 is not 0 will be converted to true when we attempt to convert them to a boolean. */
 
 console.log(Boolean(0)); // will equal false
+console.log(Boolean(undefined)); // will equal false
+console.log(Boolean("Tristan")); // will equal true -> any string not an empty string is a truthy value
+console.log(Boolean({})); // will equal true -> empty object is a truthy value
+console.log(Boolean("")); // will equal false
