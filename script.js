@@ -11,3 +11,6 @@ console.log(hasDriversLicense && hasGoodVision);
 /* OR operator */
 console.log(hasDriversLicense || hasGoodVision);
 /* result of true and false on OR = true. True displayed in console.log */
+
+/* NOT operator */
+console.log(!hasDriversLicense);
