@@ -7,9 +7,10 @@ to each day */
 const day = "Monday";
 
 switch (day) {
-  case "Monday":
+  case "Monday": // day === Monday -> strict comparison
     console.log("Plan course structure");
     console.log("Go to coding meet up");
+    /* need breaks cause  otherwise code carries on executing */
     break;
   case "Tuesday":
     console.log("Prepare videos");
