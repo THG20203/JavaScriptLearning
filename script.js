@@ -1,21 +1,12 @@
-/* when we learned about if else statements, comparison operators, 
-boolean values, we also need to learn about logic - in particular boolean logic. */
+/* age = 16 
+A: age is greater or equal 20
+B: age is less than 30
 
-/* boolean logic -> true and false values to solve complex logical problems */
-/* most basic boolean logic: the and, or & not operators */
+(Please note - A is false but B is true)
 
-/* Example to utilise:
-A: Sarah has a driver's license
-B: Sarah has good vision
-
-A and B 
-"Sarah has a driver's license AND good vision."
-true when ALL are true - no matter how many variables.
-
-A or B
-"Sarah has a driver's license or good vision."
-true when ALL are true and if one is true
-
-Not A, not B 
-inverts true/false value
+!A true
+A and B false 
+A or B true 
+!A and B true 
+A and !B false 
 */
