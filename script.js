@@ -16,3 +16,6 @@ if (23 > 10) {
 /* Template literal -> only insert expressions not statements. i.e. 2037 - 1991 
 as shown below */
 console.log(`I'm ${2037 - 1991} years old.`);
+
+const me = "Tristan";
+console.log(`I'm ${2037 - 1991} years old ${me}`);
