@@ -24,3 +24,6 @@ if (hasDriversLicense && hasGoodVision) {
 
 /* if statement above -> result in Someone else should drive, because
 hasDrivers && hasGoodVision is not true - only if both are true. */
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+/* above will equal false -> enough to make one false for whole && operation to be false */
