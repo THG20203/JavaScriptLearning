@@ -14,3 +14,12 @@ console.log(hasDriversLicense || hasGoodVision);
 
 /* NOT operator */
 console.log(!hasDriversLicense);
+
+/* Can NOW use boolean variables and logic to model complex situations */
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive");
+}
