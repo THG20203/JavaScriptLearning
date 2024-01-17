@@ -758,6 +758,35 @@ A and !B false
 
 LOGICAL OPERATORS
 
+const hasDriversLicense = true;
+const hasGoodVision = true;
+const isTired = false;
+
+/* it needs all values to be true for && to work */
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive!");
+}
+
+/* hasDriversLicense, hasGoodVision, and isTired are boolean 
+variables representing whether a person has a driver's license, 
+has good vision, and is tired, respectively. */
+
+/* The if statement checks whether all of the following conditions are true:
+hasDriversLicense is true.
+hasGoodVision is true.
+isTired is false. */
+
+/* && (logical AND) is used to combine the conditions. The if block will 
+be executed only if all conditions are true. */
+
+/* ! (logical NOT) is used to negate the value of isTired. So, 
+!isTired is true when the person is not tired. */
+
+------------------------------------------------------------------------------------------------
+
+CHALLENGE 3
 
 
 
