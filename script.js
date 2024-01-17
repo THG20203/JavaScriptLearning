@@ -1,12 +1,13 @@
-/* age = 16 
-A: age is greater or equal 20
-B: age is less than 30
+/* How do logical operators work in javascript? lets use boolean variables from 
+the last lecture. */
+const hasDriversLicense = true; // A
+const hasGoodVision = false; // B
 
-(Please note - A is false but B is true)
+/* AND operator -> look at two logical values */
+console.log(hasDriversLicense && hasGoodVision);
+/* result of true and true = true. True is displayed in console.log */
+/* result of true and false = false. False is displayed in console.log */
 
-!A true
-A and B false 
-A or B true 
-!A and B true 
-A and !B false 
-*/
+/* OR operator */
+console.log(hasDriversLicense || hasGoodVision);
+/* result of true and false on OR = true. True displayed in console.log */
