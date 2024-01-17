@@ -16,10 +16,11 @@ console.log(hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
 
 /* Can NOW use boolean variables and logic to model complex situations */
-const shouldDrive = hasDriversLicense && hasGoodVision;
-
-if (shouldDrive) {
+if (hasDriversLicense && hasGoodVision) {
   console.log("Sarah is able to drive!");
 } else {
   console.log("Someone else should drive");
 }
+
+/* if statement above -> result in Someone else should drive, because
+hasDrivers && hasGoodVision is not true - only if both are true. */
