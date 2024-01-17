@@ -1,5 +1,5 @@
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+const hasDriversLicense = true;
+const hasGoodVision = true;
 const isTired = false;
 
 /* it needs all values to be true for && to work */
