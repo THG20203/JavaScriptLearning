@@ -10,3 +10,8 @@ case condition is true */
 age >= 18
   ? console.log("I like to drink wine")
   : console.log("I like to drink water");
+
+/* Ternary Operator -> can assign value to variable. So with ternary operator, 
+can conditionally declare variables */
+/* So more likely examplev -> returning values: */
+age >= 18 ? "wine" : "water";
