@@ -1,38 +1,11 @@
-/* Already saw two ways of writing conditionals - if/else statment, switch 
-statement. Another one = conditional operator */
-/* Conditional statement lets us write conditional statements -> all in one
-line */
-const age = 18;
-/* Condition - is age at least 18. */
-/* Then ? mark -> if block. Code we want to be executed in
-case condition is true */
-/* Then : */
-age >= 18;
-//   ? console.log("I like to drink wine")
-//   : console.log("I like to drink water");
+const bill = 25;
 
-/* Ternary Operator -> can assign value to variable. So with ternary operator, 
-can conditionally declare variables */
-/* So more likely examplev -> returning values: */
-const drink = age >= 18 ? "wine" : "water";
-console.log(drink);
+/* Write your code below. Good luck! 🙂 */
 
-/* the VALUE of drink its defined conditionally based on the condition above.
-All in one simple line. */
-/* Better than if statement -> cause if want to define variable inside 
-if / else block, we need to declare variable outside */
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 
-/* For example in the code below, need to define drink2 variable outside 
-of if / else block.
-Any variable we define inside of a block is not available outside */
-let drink2;
-if (age >= 18) {
-  drink2 = "wine";
-} else {
-  drink2 = "water";
-}
-console.log(drink2);
-
-/* can put ternary operator into a template literal */
-/* Why? Cause ternary operator is asn EXPRESSION that produces a VALUE */
-console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+console.log(
+  `The bill value is ${bill} and tip is ${tip} and the total value is (${
+    bill + tip
+  })`
+);
