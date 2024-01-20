@@ -962,6 +962,10 @@ During development: use latest google chrome
 Production: Use Babel - transpiling and polyfill converting 
 back to ES5 to ensure browser compatibility  */
 
+/* ES5 = supported down to IE9 2011 */
+/* ES6 = most modern browsers */
+/* ES2021 */
+
 
 
 
