@@ -7,11 +7,12 @@ const age = 13;
 /* Then ? mark -> if block. Code we want to be executed in
 case condition is true */
 /* Then : */
-age >= 18
-  ? console.log("I like to drink wine")
-  : console.log("I like to drink water");
+age >= 18;
+//   ? console.log("I like to drink wine")
+//   : console.log("I like to drink water");
 
 /* Ternary Operator -> can assign value to variable. So with ternary operator, 
 can conditionally declare variables */
 /* So more likely examplev -> returning values: */
-age >= 18 ? "wine" : "water";
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
