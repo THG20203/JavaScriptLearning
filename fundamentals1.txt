@@ -945,8 +945,22 @@ console.log(
 
 ------------------------------------------------------------------------------------------------
 
+/* History of JavaScript */
+/* Devs wanted programming language for browser -> 
+JavaScript. 
+1997 - ECMA ES1 - first standard for JavaScript. 
+2009 - ES5 ECMAScript 5 - new features
+2015 - ES6/ ECMAScript 2015 - biggest update ever
+2016 - Release of ES2016, then ES2017...
+*/
 
-
+/* JavaScript - able to understand code of 20 years ago,
+backwards compatibility */
+/* How can we use modern javascript - cause old browsers don't
+work with it.
+During development: use latest google chrome
+Production: Use Babel - transpiling and polyfill converting 
+back to ES5 to ensure browser compatibility  */
 
 
 
