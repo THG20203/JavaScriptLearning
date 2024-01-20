@@ -2,7 +2,7 @@
 statement. Another one = conditional operator */
 /* Conditional statement lets us write conditional statements -> all in one
 line */
-const age = 26;
+const age = 13;
 /* Condition - is age at least 18. */
 /* Then ? mark -> if block. Code we want to be executed in
 case condition is true */
