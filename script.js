@@ -32,3 +32,7 @@ if (age >= 18) {
   drink2 = "water";
 }
 console.log(drink2);
+
+/* can put ternary operator into a template literal */
+/* Why? Cause ternary operator is asn EXPRESSION that produces a VALUE */
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
