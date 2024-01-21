@@ -22,7 +22,8 @@ function fruitProcessor(apples, oranges) {
   return juice;
 }
 
-/* Lets call / run / invoke the fruit processor function */
+/* Lets call / run / invoke the fruit processor function. Then in parameters, specifying
+values for apples and oranges. */
 fruitProcessor(5, 0);
 
 /* what we're doing above is using parameters - apples and oranges just as if 
