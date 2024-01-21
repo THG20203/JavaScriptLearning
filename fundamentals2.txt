@@ -32,6 +32,8 @@ const if = 23;
 
 FUNCTIONS
 
+Part 1 - Functions: 
+
 /* Functions = piece of code we can re use over and over again in our code */
 
 /* Like a variable for whole chunks of code. */
@@ -51,6 +53,8 @@ logger();
 logger();
 
 /* We will get My name is Tristan three times in the console now */
+
+Part 2 - Functions:
 
 /* Lets explore functionality of functions */
 /* When we write functions - we pass data into a function, functions can 
@@ -92,3 +96,24 @@ by passing in the real specific values, which will then get assigned to the para
 /* what we're doing above is using parameters - apples and oranges just as if 
 they were normal variables, just inside the fruitProcessor function. */
 
+Part 3 - Functions: 
+
+function fruitProcessor(apples, oranges) {
+  console.log(apples, oranges);
+  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;
+}
+
+fruitProcessor(5, 0);
+
+/* What about juice, where is it? Well juice is returned from function */
+/* That means, result of running fruit processor function is the juice,
+that we just returned. */
+
+/* Basically, once this function has been executed, the code:
+fruitProcessor(5, 0); is then replaced by the result of the function.
+In this case, be the juice string we produced. */
+
+/* So, if want to use value that was returned, we need to store it in a variable */
+
+Part 4 - Functions:
