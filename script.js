@@ -13,9 +13,17 @@ function fruitProcessor(apples, oranges) {
   fruit processor produces a juice out of apples and oranges we give it */
   /* Creating string that does that, variable called juice, then template literal
   then using the apples parameter here. */
-  /* the apples parameter at top will be a number once we call the function */
-  const juice = `Juice with ${apples} apples`;
+  /* the apples parameter in parameters will be a number once we call the function, 
+  oranges too. */
+  /* we've built a string based on input data we get into the function. */
+  const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+  /* with return keyword, can return any value from the function. This value can
+  be used later anywhere in our code. */
+  return juice;
 }
+
+/* Lets call / run / invoke the fruit processor function */
+fruitProcessor(5, 0);
 
 /* what we're doing above is using parameters - apples and oranges just as if 
 they were normal variables, just inside the fruitProcessor function. */
