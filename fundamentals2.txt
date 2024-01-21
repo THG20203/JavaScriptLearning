@@ -104,7 +104,8 @@ function fruitProcessor(apples, oranges) {
   return juice;
 }
 
-fruitProcessor(5, 0);
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
 
 /* What about juice, where is it? Well juice is returned from function */
 /* That means, result of running fruit processor function is the juice,
@@ -114,6 +115,6 @@ that we just returned. */
 fruitProcessor(5, 0); is then replaced by the result of the function.
 In this case, be the juice string we produced. */
 
-/* So, if want to use value that was returned, we need to store it in a variable */
+/* So, if want to use value that was returned, we need to store it in a variable.
+Save value, capture it. */
 
-Part 4 - Functions:
