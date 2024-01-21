@@ -9,6 +9,12 @@ we call the function. */
 /* apples and oranges represent the input data of this function */
 function fruitProcessor(apples, oranges) {
   console.log(apples, oranges);
+  /* do something -> simulate - fruit processor does something with apples and oranges 
+  fruit processor produces a juice out of apples and oranges we give it */
+  /* Creating string that does that, variable called juice, then template literal
+  then using the apples parameter here. */
+  /* the apples parameter at top will be a number once we call the function */
+  const juice = `Juice with ${apples} apples`;
 }
 
 /* what we're doing above is using parameters - apples and oranges just as if 
