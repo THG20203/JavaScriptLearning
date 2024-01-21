@@ -24,7 +24,16 @@ function fruitProcessor(apples, oranges) {
 
 /* Lets call / run / invoke the fruit processor function. Then in parameters, specifying
 values for apples and oranges. */
+/* 5 and 0 are inputs of fruit processor function. */
 fruitProcessor(5, 0);
+
+/* function fruitProcessor(apples, oranges) { - think of apples and oranges parameters
+like empty spaces we still need to fill out, when writing a function. */
+
+/* When we call function later in code fruitProcessor(5, 0);, we fill in blank spaces,
+by passing in the real specific values, which will then get assigned to the parameters. */
+
+/* 5, 0 -> actual values of parameters are called arguments. */
 
 /* what we're doing above is using parameters - apples and oranges just as if 
 they were normal variables, just inside the fruitProcessor function. */
