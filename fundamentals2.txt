@@ -178,6 +178,7 @@ function calcAge1(birthYear) /* then function body with curly braces */ {
 const tristanAge = calcAge1(1997);
 
 /*---------------------------------------------------------------------------------------*/
+
 /* Function Expression */
 /* write function without a name, then still define parameter, function body,
 BUT then store it all into a variable. That variable will then be the function. */
@@ -196,3 +197,33 @@ console.log(tristanAge, age2);
 
 /* In javascript functions are just values. - not types. If its a value can 
 store it in variable. */
+
+/* Whats the difference function declaration and expressions?
+Can call function declarations BEFORE they are defined in the code.
+*/
+
+// Function declaration
+/* calling function BEFORE defined in the code */
+const age1 = calcAge1(1991);
+
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+
+// Function expression
+/* for expressions can't call until intilisation -> cause of hoisiting */
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
+};
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
+
+/* which type should I use? personal preference -> expressions? Structure ->
+forced to define functions first. Also, means functions and values are stored in 
+variables */
+
+------------------------------------------------------------------------------------------------
+
+ARROW FUNCTIONS
+
