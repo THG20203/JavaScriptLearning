@@ -12,3 +12,24 @@ into the function as parameters. */
 these blank spaces. */
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+
+/* we should call functions at least once otherwise code in functions will never
+be executed. Without calling function, it is useless. */
+
+/*-----------------------------------------------------------------------------*/
+
+/* logger function -> don't have any parameters, so when call function, don't specify 
+any arguments. */
+function logger() {
+  /* note in this function nothing is returned. Not all functions return something, not all 
+    functions need to accept parameters like fruit processor. */
+  console.log("My name is Jonas");
+  /* function without parameters or return only really use when there is a block of code we 
+  want to use over and over */
+}
+
+/* this function doesn't return anything, all it does is log something to the console.
+It doesn't return a value cause it doesn't return a value */
+/* This is why we don't save anything to a variable cause no return, no value, nothing
+to add to a variable */
+logger();
