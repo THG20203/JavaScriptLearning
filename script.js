@@ -1,5 +1,5 @@
 function fruitProcessor(apples, oranges) {
-  console.log(apples, oranges);
+  /* all we want to do is produce juice and return it from the function */
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
   return juice;
 }
