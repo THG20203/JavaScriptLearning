@@ -41,7 +41,7 @@ Part 1 - Functions:
 /* Variable holds value. But function holds one or more complete lines of code. */
 
 function logger() {
-  /* all code in curly braces = function buddy. It's this code that will be executed
+  /* all code in curly braces = function body. It's this code that will be executed
     when we run this function in our program. */
   console.log("my name is Tristan");
 }
@@ -157,4 +157,7 @@ to add to a variable */
 /* logger() will produce undefined, and we don't capture undefined as a value. */
 logger();
 
+------------------------------------------------------------------------------------------------
+
+FUNCTION DECLARATIONS Vs. EXPRESSIONS
 
