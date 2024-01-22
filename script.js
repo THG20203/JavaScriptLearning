@@ -32,4 +32,5 @@ function logger() {
 It doesn't return a value cause it doesn't return a value */
 /* This is why we don't save anything to a variable cause no return, no value, nothing
 to add to a variable */
+/* logger() will produce undefined, and we don't capture undefined as a value. */
 logger();
