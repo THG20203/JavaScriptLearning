@@ -14,3 +14,19 @@ function calcAge1(birthYear) /* then function body with curly braces */ {
 /* const tristanAge -> capturing value into variable */
 const tristanAge = calcAge1(1997);
 console.log(tristanAge);
+
+/*---------------------------------------------------------------------------------------*/
+/* Function Expression */
+/* write function without a name, then still define parameter, function body,
+BUT then store it all into a variable. That variable will then be the function. */
+/* function without a name -> anonymous function */
+const calcAge2 = function (birthYear) {
+  return 2024 - birthYear;
+};
+/* in function expression above everything in the fucntion to the right of the 
+= is an expression. Remember expression produces a value. Use that value, store
+it into calcAge2. This will then be the function. */
+
+/* to call function, we do it in same way */
+const age2 = calcAge2(1991);
+console.log(age2);
