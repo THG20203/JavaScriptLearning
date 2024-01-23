@@ -45,4 +45,12 @@ const yearsUntilRetirement = (birthYear) => {
 console.log(yearsUntilRetirement(1997)); // 38 years
 
 /*------------------------------------------------------------------------*/
-/* multiple parameters multiple lines of code */
+/* multiple parameters multiple lines of code? */
+/* we need to wrap parameters (variables) into parentheses */
+const yearsUntilRetirement2 = (birthYear, firstName) => {
+  const age = 2024 - birthYear;
+  const retirementYears = 65 - age;
+  const retireSentence = `${firstName} will retire in ${retirementYears} years.`;
+  return retireSentence;
+};
+console.log(yearsUntilRetirement2(1997, "Tristan"));
