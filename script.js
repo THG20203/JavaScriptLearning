@@ -14,7 +14,15 @@ const calcAge = function (birthYear) {
 const yearsUntilRetirement = function (birthYear, firstName) {
   const age = calcAge(birthYear);
   const retirement = 65 - age;
-  return retirement;
-  // return `${firstName} retires in ${retirement} years.`;
+  /* take decision based on retirmenet value */
+  if (retirement > 0) {
+    return retirement;
+  } else {
+    /* In this case, if retirement is not greater than 0, the function will return -1.
+    So, the purpose of returning -1 in the else block is to indicate that if retirement
+    is not a positive value, it serves as a kind of "error" or "invalid" signal. */
+    return -1;
+  }
 };
 console.log(yearsUntilRetirement(1997, "Tristan"));
+console.log(yearsUntilRetirement(2970, "Mike"));
