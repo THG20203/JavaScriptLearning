@@ -57,3 +57,5 @@ console.log(yearsUntilRetirement2(1997, "Tristan"));
 /* when should I use arrow functions? 
 Have to take note of fundamental difference between arrow functions, 
 function declerations and expressions */
+
+/* arrow functions DO NOT get a so called 'this' keyword */
