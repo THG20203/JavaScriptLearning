@@ -25,4 +25,4 @@ const yearsUntilRetirement = function (birthYear, firstName) {
   }
 };
 console.log(yearsUntilRetirement(1997, "Tristan"));
-console.log(yearsUntilRetirement(2970, "Mike"));
+console.log(yearsUntilRetirement(1970, "Mike"));
