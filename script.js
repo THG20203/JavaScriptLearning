@@ -50,7 +50,6 @@ console.log(yearsUntilRetirement(1997)); // 38 years
 const yearsUntilRetirement2 = (birthYear, firstName) => {
   const age = 2024 - birthYear;
   const retirementYears = 65 - age;
-  const retireSentence = `${firstName} will retire in ${retirementYears} years.`;
-  return retireSentence;
+  return `${firstName} will retire in ${retirementYears} years.`;
 };
 console.log(yearsUntilRetirement2(1997, "Tristan"));
