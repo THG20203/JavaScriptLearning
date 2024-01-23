@@ -27,6 +27,9 @@ const age3 = calcAge3(1991);
 console.log(age3);
 
 /* another more complex arrow function */
+/*------------------------------------------------------------------------*/
+/* one parameter multiple lines of code */
+
 /* How many years a person has left until retirement? */
 /* passing in birthYear. But to calculate based on birthYear alone, first
 need to calculate age, retirement age - currentAge. */
@@ -40,3 +43,6 @@ const yearsUntilRetirement = (birthYear) => {
 };
 /* could assign answer to variable, but instead console.log */
 console.log(yearsUntilRetirement(1997)); // 38 years
+
+/*------------------------------------------------------------------------*/
+/* multiple parameters multiple lines of code */
