@@ -2,10 +2,10 @@
 expression -> shorter and therefore faster to write. */
 
 /* Get function declaration up as comparison */
-const age1 = calcAge1(1991);
 function calcAge1(birthYear) {
   return 2024 - birthYear;
 }
+const age1 = calcAge1(1991);
 
 /* Get function expression up as a comparison */
 const calcAge2 = function (birthYear) {
@@ -53,3 +53,7 @@ const yearsUntilRetirement2 = (birthYear, firstName) => {
   return `${firstName} will retire in ${retirementYears} years.`;
 };
 console.log(yearsUntilRetirement2(1997, "Tristan"));
+
+/* when should I use arrow functions? 
+Have to take note of fundamental difference between arrow functions, 
+function declerations and expressions */
