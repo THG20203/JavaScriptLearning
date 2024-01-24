@@ -3,10 +3,10 @@
 function calcAge(birthYear) {
   return 2037 - birthYear;
 }
-/* expression: */
+/* expression - essentially function values stored in variable */
 const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
 
-/* arrow: */
+/* arrow - great for quick one line functions. No arrow (more later). */
 const calcAge = (birthYear) => 2037 - birthYear;
