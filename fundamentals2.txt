@@ -493,3 +493,22 @@ can be an expression like 'friends.length - 1'. Remember an expression produces 
 Remember can't put a statement between [] */
 
 /* friends.length - 1 will be 3 - 2 */
+
+/* Square brackets not only for retreiving elements from the array, 
+but we can also change it to add elements to the array. */
+
+const friends = ["Michael", "Steven", "Peter"];
+/* can mutuate arrays */
+friends[2] = "Jay";
+console.log(friends); // (3) ["Michael", "Steven", "Jay"]
+
+/* but aren't variables declared with const unable to be changed? */
+/* we declared friends variable - the array with const but we were able to 
+change one element of the variable from peter to jay. */
+
+/* Only primitive values are immutable but array is NOT primitive value. */
+/* Works this way cause of how javascript stores things in memory */
+/* Can mutate arrays even though declared with const. What we can't do is replace
+entire array */
+
+// friends = ["Bob", "Alice"]; // this wouldn't work
