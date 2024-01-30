@@ -24,6 +24,7 @@ element 'Peter' is 2 - as per the 0 indexed array */
 console.log(friends[friends.length - 1]);
 
 /* what the above also shows -> can put any expression inside of bracket. Not just number
-can be an expression like 'friends.length - 1'. Remember an expression produces a value. */
+can be an expression like 'friends.length - 1'. Remember an expression produces a value. 
+Remember can't put a statement between [] */
 
 /* friends.length - 1 will be 3 - 2 */
