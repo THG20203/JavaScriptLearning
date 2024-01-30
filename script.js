@@ -19,3 +19,11 @@ something we're going to talk about later in section when talk about objects.
 console.log(friends.length);
 
 /* Can use this to automatically get last element of any array */
+/* remember, friends.length is not 0 based, so friends.length is 3, but the last
+element 'Peter' is 2 - as per the 0 indexed array */
+console.log(friends[friends.length - 1]);
+
+/* what the above also shows -> can put any expression inside of bracket. Not just number
+can be an expression like 'friends.length - 1'. Remember an expression produces a value. */
+
+/* friends.length - 1 will be 3 - 2 */
