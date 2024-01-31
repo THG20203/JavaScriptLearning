@@ -525,3 +525,11 @@ number 2 in the new array. */
 it to value Tristan then put firstName varaibale name into the array. */
 const firstName = "Tristan";
 const tristan = [firstName, "Griffiths", 2024 - 1997];
+
+/* can put array inside of an array */
+const friends = ["Sam", "Dan", "John"];
+const firstName = "Tristan";
+const tristan = [firstName, "Griffiths", 2023 - 1997, friends];
+
+the array above in console.log will show 
+(4) ["Tristan", "Griffiths", 27, Array(3)]
