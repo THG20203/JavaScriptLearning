@@ -512,3 +512,16 @@ change one element of the variable from peter to jay. */
 entire array */
 
 // friends = ["Bob", "Alice"]; // this wouldn't work
+
+/* JavaScript -> array can hold values with different types all at the
+same time. */
+/* In each position, JavaScript simply expects an expression. So array below will
+work. */
+const jonas = ["Jonas", "Course", 2037 - 1991];
+
+/* 2037 - 1991 will produce a value - so thats the value that will be stored at position
+number 2 in the new array. */
+/* This also works for variables, could also create variable name called firstName assign 
+it to value Tristan then put firstName varaibale name into the array. */
+const firstName = "Tristan";
+const tristan = [firstName, "Griffiths", 2024 - 1997];
