@@ -17,4 +17,9 @@ If the bill is less than $50, calculate a 20% tip (bill * 0.2). */
 const bills = [125, 555, 44];
 /* tips value for each bill. Create an array, but each value a function call to calcTip */
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
-console.log(bills, tips);
+
+/* how do you get a total? */
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+/* can't do const total = bills + tips because arrays aren't values */
+
+console.log(bills, tips, totals);
