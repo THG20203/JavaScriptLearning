@@ -7,3 +7,14 @@ const calcTip = function (bill) {
 If the bill is less than $50, calculate a 20% tip (bill * 0.2). */
   return bill >= 50 && 300 <= 300 ? bill * 0.15 : bill * 0.2;
 };
+
+/* could do it with arrow function as below */
+/* const calcTip2 = (bill) =>
+  bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+*/
+
+/* create bills array with these three values */
+const bills = [125, 555, 44];
+/* tips value for each bill. Create an array, but each value a function call to calcTip */
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+console.log(bills, tips);
