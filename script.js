@@ -19,3 +19,5 @@ const tristan = {
   job: "Software Developer",
   friends: ["Sam", "John", "Steven"],
 };
+
+/* order of values doesn't matter when retrieve them, unlike arrays */
