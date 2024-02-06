@@ -7,3 +7,15 @@ const tristanArray = [
   "Developer",
   ["Sam", "John", "Peter"],
 ];
+
+/* in objects -> define key value pairs */
+/* each of the keys is also called a property - so tristan object 
+has 5 properties */
+const tristan = {
+  /* key is variable name the the value - which can be any time we want */
+  firstName: "Tristan",
+  lastName: "Griffiths",
+  age: 2023 - 1997,
+  job: "Software Developer",
+  friends: ["Sam", "John", "Steven"],
+};
