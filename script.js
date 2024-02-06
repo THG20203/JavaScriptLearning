@@ -19,5 +19,6 @@ const tristan = {
   job: "Software Developer",
   friends: ["Sam", "John", "Steven"],
 };
-
-/* order of values doesn't matter when retrieve them, unlike arrays */
+console.log(tristan);
+/* order of values doesn't matter when retrieve them, unlike arrays. 
+Get properties from object, using property name itself */
