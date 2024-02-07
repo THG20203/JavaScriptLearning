@@ -33,3 +33,10 @@ i.e. "first" + nameKey,
 but in other cases use dot notation. */
 
 /* another Bracket Notation example */
+const interestedIn = prompt(
+  "What do you want to know about Jonas? Choose between firstName, lastName, job and friends"
+);
+/* interestIn to the console, check it actually works */
+console.log(interestedIn);
+/* with prompt-> if write 'job' for example and press enter, job will appear in 
+the console */
