@@ -18,5 +18,18 @@ is basically an expression. */
 console.log(jonas["lastName"]);
 
 const nameKey = "Name";
-/* inside brackets -> could've constructed name using template literal, */
+/* inside brackets -> could've constructed name using template literal, but not 
+necessary -> see with + we can put any expression. */
 console.log(jonas["first" + nameKey]);
+console.log(jonas["last" + nameKey]);
+
+/* same thing wouldn't work with dot notation 
+-> this wouldn't work:
+console.log(jonas."last" + nameKey)*/
+
+/* when do you use dot notation, when do you use bracket?
+When we need to first compute the property name use the bracket notation ->
+i.e. "first" + nameKey, 
+but in other cases use dot notation. */
+
+/* another Bracket Notation example */
