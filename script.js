@@ -42,5 +42,9 @@ the console cause thats what user chose. */
 console.log(interestedIn);
 
 /* jonas.interestedIn -> doesn't work - undefined is what we get when try and access a 
-property on an object that doesn't exist. */
-console.log(jonas.interestedIn);
+property on an object that doesn't exist. jonas doesn't have a property called interestedIn */
+/* console.log(jonas.interestedIn); */
+
+/* instead of dot notation we need to use brackets notation. javaScript will come and replace 
+interestedIn with the actual value of the variable. */
+console.log(jonas[interestedIn]);
