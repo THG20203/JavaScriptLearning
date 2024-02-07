@@ -37,6 +37,10 @@ const interestedIn = prompt(
   "What do you want to know about Jonas? Choose between firstName, lastName, job and friends"
 );
 /* interestIn to the console, check it actually works */
-console.log(interestedIn);
 /* with prompt-> if write 'job' for example and press enter, job will appear in 
-the console */
+the console cause thats what user chose. */
+console.log(interestedIn);
+
+/* jonas.interestedIn -> doesn't work - undefined is what we get when try and access a 
+property on an object that doesn't exist. */
+console.log(jonas.interestedIn);
