@@ -46,5 +46,23 @@ property on an object that doesn't exist. jonas doesn't have a property called i
 /* console.log(jonas.interestedIn); */
 
 /* instead of dot notation we need to use brackets notation. javaScript will come and replace 
-interestedIn with the actual value of the variable. */
+interestedIn with the actual value of the variable -> thats the one that will be looked up on 
+a jonas object. */
 console.log(jonas[interestedIn]);
+
+/* How to handle false values not in the object? We know undefined is a falsy value. */
+/* if jonas[interestedIn] means its a turthy value, any string that is not empty -> or any number
+that is not 0 will trigger code block */
+if (jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+} else {
+  console.log(
+    "Wrong request. What do you want to know about Jonas? Choose between firstName, lastName, job and friends"
+  );
+}
+
+/* adding to the object? */
+jonas.location = "Portugal";
+jonas["twitter"] = "@jonasschmedtmann";
+console.log(jonas);
+/* location and twitter added to object */
