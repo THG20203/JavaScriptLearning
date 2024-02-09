@@ -1,68 +1,43 @@
-/* Get properties from object, using property name itself -> explain it 
-by writing out jonas object. */
+/* Objects can hold differenttypes of data, arrays and objects inside of objects. 
+But now, can take it even further. */
+/* Functions are really just a value. If functions are a value then that just 
+means we can create a key value pair in which a value is just a function. */
+/* can add functions to objects */
 const jonas = {
-  firstName: "jonas",
+  firstName: "Jonas",
   lastName: "Schmedtmann",
-  age: 2037 - 1991,
+  birthYear: 1991,
   job: "teacher",
   friends: ["Michael", "Peter", "Steven"],
+  /* adding a boolean */
+  hasDriversLicense: true,
+  /* adding function as a key value pair -> name of function as key or property. 
+  calcAge not normal variable, but property of the jonas object. */
+  /* any function attached to an object is called a method */
+  /* method is a property */
+  /* this keyword is equal to the object calling the method */
+  calcAge: function () {
+    console.log(this); // when log this to console, will show whole Jonas object
+    /* with this.age we are essentially creating jonas.age */
+    this.age = 2037 - this.birthYear;
+    /* then simply return this.age -> we don't even need to return this.age we don't
+    even have to make this method return the age. */
+    return this.age;
+  },
+  getSummary: function () {
+    /* in template string can do function call so calcAge() works */
+    return `${this.firstName} is a ${this.calcAge()} year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license.`;
+  },
 };
-console.log(jonas);
-/* DOT NOTATION */
-/* dot . is operator go to the property with name specified */
-console.log(jonas.lastName);
-/* BRACKET NOTATION */
-/* bracket notation in brackets can put any expression we like, so don't have
-to explicitly write string, can compute it from operation. Remember operation 
-is basically an expression. */
-console.log(jonas["lastName"]);
 
-const nameKey = "Name";
-/* inside brackets -> could've constructed name using template literal, but not 
-necessary -> see with + we can put any expression. */
-console.log(jonas["first" + nameKey]);
-console.log(jonas["last" + nameKey]);
+console.log(jonas.calcAge());
+console.log(jonas.age);
 
-/* same thing wouldn't work with dot notation 
--> this wouldn't work:
-console.log(jonas."last" + nameKey)*/
+/* any function attached to an object is called a method */
+/* method is a property -> just happens to be a property that holds a function value. */
 
-/* when do you use dot notation, when do you use bracket?
-When we need to first compute the property name use the bracket notation ->
-i.e. "first" + nameKey, 
-but in other cases use dot notation. */
-
-/* another Bracket Notation example */
-const interestedIn = prompt(
-  "What do you want to know about Jonas? Choose between firstName, lastName, job and friends"
-);
-/* interestIn to the console, check it actually works */
-/* with prompt-> if write 'job' for example and press enter, job will appear in 
-the console cause thats what user chose. */
-console.log(interestedIn);
-
-/* jonas.interestedIn -> doesn't work - undefined is what we get when try and access a 
-property on an object that doesn't exist. jonas doesn't have a property called interestedIn */
-/* console.log(jonas.interestedIn); */
-
-/* instead of dot notation we need to use brackets notation. javaScript will come and replace 
-interestedIn with the actual value of the variable -> thats the one that will be looked up on 
-a jonas object. */
-console.log(jonas[interestedIn]);
-
-/* How to handle false values not in the object? We know undefined is a falsy value. */
-/* if jonas[interestedIn] means its a turthy value, any string that is not empty -> or any number
-that is not 0 will trigger code block */
-if (jonas[interestedIn]) {
-  console.log(jonas[interestedIn]);
-} else {
-  console.log(
-    "Wrong request. What do you want to know about Jonas? Choose between firstName, lastName, job and friends"
-  );
-}
-
-/* adding to the object? */
-jonas.location = "Portugal";
-jonas["twitter"] = "@jonasschmedtmann";
-console.log(jonas);
-/* location and twitter added to object */
+/* Get summary string -> summarise data of jonas? write out "Jonas is a 46 year old teacher,
+and he has a drivers license" */
+console.log(jonas.getSummary());
