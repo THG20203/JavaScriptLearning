@@ -1,5 +1,5 @@
 /* more features of for loop -> loop through array */
-const jonasArray = [
+const jonas = [
   "Jonas",
   "Schmedmann",
   2037 - 1991,
@@ -9,7 +9,7 @@ const jonasArray = [
 
 /* i is traditional counter name -> starting it at 0. This is because
 arrays 0 based. */
-for (let i = 0; ; i++) {
+for (let i = 0; i < 5; i++) {
   console.log(jonas[i]);
 }
 
@@ -20,4 +20,5 @@ console.log(jonas[1])
 console.log(jonas[2])
 console.log(jonas[3])
 console.log(jonas[4])
+jonas[5] doesn't exist
 */
