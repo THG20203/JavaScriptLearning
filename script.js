@@ -23,3 +23,9 @@ for (let i = 0; i < jonas.length; i++) {
   console.log(jonas[i], typeof jonas[i]);
 }
 /* break - used to terminate the whole loop */
+/* with break after number is found nothing is then printed */
+console.log("--BREAK WITH NUMBER--");
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== "number") break;
+  console.log(jonas[i], typeof jonas[i]);
+}
