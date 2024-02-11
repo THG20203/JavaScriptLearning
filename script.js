@@ -5,4 +5,12 @@
 2). logical condition evaluated before each iteration of the loop. 
 (So before each time the code is executed)
 3). */
-for(let rep = 1; ) {}
+
+for(let rep = 1; rep <= 10) {}
+
+/* in our case rep => 10. rep needs to stay below or 10. 
+So this condition will be evaluated before each iteration of the loop. 
+If the condition is 'true' the next iteration will run, but as soon 
+as condition is false the loop stops, so no more code will be executed. */
+/* So basically, the loop will run as long as the condition (2nd part) stays
+true */
