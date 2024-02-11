@@ -9,6 +9,7 @@ console.log(ages);
 
 /* continue - exit the current iteration of the loop and continue to the next 
 one */
+console.log("--ONLY STRINGS--");
 for (let i = 0; i < jonas.length; i++) {
   /* we only want to log strings to the console. 
   /* So !== "string" checks whether the data type of the element at index i is 
