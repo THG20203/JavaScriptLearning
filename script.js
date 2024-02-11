@@ -1,43 +1,32 @@
-/* Objects can hold differenttypes of data, arrays and objects inside of objects. 
-But now, can take it even further. */
-/* Functions are really just a value. If functions are a value then that just 
-means we can create a key value pair in which a value is just a function. */
-/* can add functions to objects */
-const jonas = {
-  firstName: "Jonas",
-  lastName: "Schmedtmann",
-  birthYear: 1991,
-  job: "teacher",
-  friends: ["Michael", "Peter", "Steven"],
-  /* adding a boolean */
-  hasDriversLicense: true,
-  /* adding function as a key value pair -> name of function as key or property. 
-  calcAge not normal variable, but property of the jonas object. */
-  /* any function attached to an object is called a method */
-  /* method is a property */
-  /* this keyword is equal to the object calling the method */
-  calcAge: function () {
-    console.log(this); // when log this to console, will show whole Jonas object
-    /* with this.age we are essentially creating jonas.age */
-    this.age = 2037 - this.birthYear;
-    /* then simply return this.age -> we don't even need to return this.age we don't
-    even have to make this method return the age. */
-    return this.age;
-  },
-  getSummary: function () {
-    /* in template string can do function call so calcAge() works */
-    return `${this.firstName} is a ${this.calcAge()} year old ${
-      this.job
-    }, and he has ${this.hasDriversLicense ? "a" : "no"} drivers license.`;
+/*
+1. For each of them, create an object with properties for their full name, mass, and height 
+(Mark Miller and John Smith)
+2. Create a "calcBMI" method on each object to calculate the BMI (the same method on both
+objects). Store the BMI value to a property, and also return it from the method.
+3. Log to the console who has a higher BMI, together with the full name and respective BMI. 
+Example: "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)"
+
+TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+*/
+
+/* creating an object for each of them */
+const mark = {
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  /* now, create the calcBMI method. function with no parameters -> function without any 
+  parameters -> we will take the data directly from the object -> just like calcAge previously */
+  calcBMI: function () {
+    this.bmi = (this.mass / this.height) ** 2;
+    return this.bmi;
   },
 };
 
-console.log(jonas.calcAge());
-console.log(jonas.age);
+const john = {
+  fullName: "John Smith",
+  mass: 92,
+  height: 1.95,
+};
 
-/* any function attached to an object is called a method */
-/* method is a property -> just happens to be a property that holds a function value. */
-
-/* Get summary string -> summarise data of jonas? write out "Jonas is a 46 year old teacher,
-and he has a drivers license" */
-console.log(jonas.getSummary());
+mark.calcBMI();
+console.log(mark.bmi);
