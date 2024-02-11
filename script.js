@@ -9,7 +9,8 @@ const jonas = [
 
 /* i is traditional counter name -> starting it at 0. This is because
 arrays 0 based. */
-for (let i = 0; i < 5; i++) {
+/* remember x < y less than is read left to right so x is less than y */
+for (let i = 0; i < jonas.length; i++) {
   console.log(jonas[i]);
 }
 
