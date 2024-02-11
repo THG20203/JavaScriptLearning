@@ -12,7 +12,7 @@ arrays 0 based. */
 /* remember x < y less than is read left to right so x is less than y */
 /* computing value -> i.e. getting it from JavaScript itself hence jonas.length */
 for (let i = 0; i < jonas.length; i++) {
-  console.log(jonas[i]);
+  console.log(jonas[i], typeof jonas[i]);
 }
 
 /* all we want to log to the console is each element of the array. So 
