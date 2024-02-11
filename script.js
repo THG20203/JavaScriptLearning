@@ -17,7 +17,7 @@ const mark = {
   /* now, create the calcBMI method. function with no parameters -> function without any 
   parameters -> we will take the data directly from the object -> just like calcAge previously */
   calcBMI: function () {
-    this.bmi = (this.mass / this.height) ** 2;
+    this.bmi = this.mass / this.height ** 2;
     return this.bmi;
   },
 };
