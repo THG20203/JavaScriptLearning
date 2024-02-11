@@ -15,5 +15,12 @@ for (let i = 0; i < jonas.length; i++) {
 
   /* new array, types -> will be based on the jonas array, so will have 
   the same length. */
-  types[i] = typeof jonas[i];
+  /* types[i] = typeof jonas[i]; */
+  /* do it a different way - push method -> add to the array. new element to end of array */
+  types.push(typeof jonas[i]);
 }
+console.log(types);
+
+/* Why does types[i] = typeof jonas[i]; work?
+types[0] = typeof jonas[i]; 
+type[0] = typeof jonas[0] then so on and so on */
