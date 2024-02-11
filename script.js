@@ -9,7 +9,8 @@
 replaced by rep++) */
 
 for (let rep = 1; rep <= 10; rep++) {
-  console.log("Lifting weights repetition 1");
+  /* number in console.log is current value of the counter. */
+  console.log(`Lifting weights repetition ${rep}`);
 }
 
 /* in our case rep => 10. rep needs to stay below or 10. 
