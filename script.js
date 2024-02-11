@@ -4,9 +4,13 @@
 (Use let value, cause later counter will be updated)
 2). logical condition evaluated before each iteration of the loop. 
 (So before each time the code is executed)
-3). */
+3). increasing the counter.
+(So increasing our counter by 1 each iteration. rep = rep + 1 can be
+replaced by rep++) */
 
-for(let rep = 1; rep <= 10) {}
+for (let rep = 1; rep <= 10; rep++) {
+  console.log("Lifting weights repetition 1");
+}
 
 /* in our case rep => 10. rep needs to stay below or 10. 
 So this condition will be evaluated before each iteration of the loop. 
