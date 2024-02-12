@@ -2,7 +2,7 @@
 
 /* for loop comparison */
 for (let rep = 1; rep <= 10; rep++) {
-  console.log(`Lifting weights repetition ${rep}`);
+  // console.log(`Lifting weights repetition ${rep}`);
 }
 
 /* now we need to more explicitly define the other two components 
@@ -12,7 +12,7 @@ let rep = 1;
 /* while loop ->for the while loop, we can only specify a condition */
 /* so in this case whilst repetitions are less or equal to 10 */
 while (rep <= 10) {
-  console.log(`Lifting weights repetition ${rep}`);
+  // console.log(`Lifting weights repetition ${rep}`);
   /* the last part, the counter is defined inside the for loop */
   rep++;
 }
@@ -32,10 +32,15 @@ Math.random() creates a random number between 0 and 1, including 0 but not 1
 Thus, the maximum number that Math.random()*6 can create will still become 
 5 after using Math.trunc() while the minimum will become 0. 
 Since we are dealing with dice, we add one to get values between 1 and 6. */
-let dice = Math.trunc(Math.random() * 6 + 1);
+let dice = Math.trunc(Math.random() * 6) + 1;
 
 /* Keep running loop till roll a 6. */
 /* so, dice !== 6 -> white dice roll isn't six */
 while (dice !== 6) {
   console.log(`You rolled a ${dice}`);
+  /* generates a new random number for dice using the same logic as before. */
+  dice = Math.trunc(Math.random() * 6) + 1;
+  /* If the new value of dice is 6, it logs a message indicating that the 
+  loop is about to end. */
+  if (dice === 6) console.log("Loop is about to end...");
 }
