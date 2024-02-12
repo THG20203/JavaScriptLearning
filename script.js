@@ -22,3 +22,9 @@ counter, we just added it in this example */
 /* example of while loop without a counter - depends on random variable */
 
 /* roll dice, keep rolling dice until till we roll a 6 and then stop. */
+
+/* start by creating a random number between 1 and 6 */
+/* Math.random() random number thats great or equal to 0 and less than 1 */
+/* Math.trunc() removes any fractional digits */
+let dice = Math.trunc(Math.random() * 6);
+console.log(dice);
