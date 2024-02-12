@@ -33,4 +33,9 @@ Thus, the maximum number that Math.random()*6 can create will still become
 5 after using Math.trunc() while the minimum will become 0. 
 Since we are dealing with dice, we add one to get values between 1 and 6. */
 let dice = Math.trunc(Math.random() * 6 + 1);
-console.log(dice);
+
+/* Keep running loop till roll a 6. */
+/* so, dice !== 6 -> white dice roll isn't six */
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+}
