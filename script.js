@@ -16,3 +16,9 @@ while (rep <= 10) {
   /* the last part, the counter is defined inside the for loop */
   rep++;
 }
+
+/* while loop more versatile than for loop cause don't necessarily need a
+counter, we just added it in this example */
+/* example of while loop without a counter - depends on random variable */
+
+/* roll dice, keep rolling dice until till we roll a 6 and then stop. */
