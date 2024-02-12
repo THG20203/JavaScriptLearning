@@ -25,6 +25,12 @@ counter, we just added it in this example */
 
 /* start by creating a random number between 1 and 6 */
 /* Math.random() random number thats great or equal to 0 and less than 1 */
+
 /* Math.trunc() removes any fractional digits */
-let dice = Math.trunc(Math.random() * 6);
+/* Why + 1? 
+Math.random() creates a random number between 0 and 1, including 0 but not 1
+Thus, the maximum number that Math.random()*6 can create will still become 
+5 after using Math.trunc() while the minimum will become 0. 
+Since we are dealing with dice, we add one to get values between 1 and 6. */
+let dice = Math.trunc(Math.random() * 6 + 1);
 console.log(dice);
