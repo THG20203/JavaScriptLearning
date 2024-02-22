@@ -1113,7 +1113,3 @@ while (dice !== 6) {
   loop is about to end. */
   if (dice === 6) console.log("Loop is about to end...");
 }
-
-------------------------------------------------------------------------------------------------
-
-WHILE LOOP CHALLENGE
