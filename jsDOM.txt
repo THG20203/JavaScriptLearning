@@ -1,1 +1,14 @@
-/* Guess my number */
+GUESS MY NUMBER 
+
+/* Selecting a html element in javascript */
+/* query selector basically a method on document object */
+/* into querySelector -> need to pass in a selector. This selector 
+is exactly the same selector we would use in CSS. Pass string. */
+console.log(document.querySelector(".message"));
+
+/* querySelector selects the element, then on element can read textContent property. */
+/* Multiple dot operators are executed from left to right */
+
+--------------------------------------------------------------------------------------------------------
+
+WHAT'S THE DOM AND DOM MANIPULATION
