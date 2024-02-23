@@ -12,3 +12,22 @@ console.log(document.querySelector(".message"));
 --------------------------------------------------------------------------------------------------------
 
 WHAT'S THE DOM AND DOM MANIPULATION
+
+/* JavaScript interacting with webpage -> DOM manipulation */
+/* DOM = Doucment Object Model -> Structured representation of HTML docs. */
+/* DOM lets JavaScript access HTML elements and styles and manipulate them */
+
+/* Change text, HTML attributes and even CSS styles */
+
+/* Document is a special object we have access to in JavaScript */
+
+/* This object serves as an entry point into the DOM. cause need document to
+start selecting elements */
+
+/* DOM tree has more than just element nodes -> has nodes for texts itself, comments */
+
+/* Whatever is in HTML document has to be in DOM */
+
+--------------------------------------------------------------------------------------------------------
+
+SELECTING AND MANIPULATING ELEMENTS
