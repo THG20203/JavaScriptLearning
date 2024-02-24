@@ -28,7 +28,7 @@ document.querySelector(".check").addEventListener("click", function () {
   /* Remember any argument in an if statement parentheses will be evaluated to a boolean. and the
   argument is evaluated to see if it is TRUE */
   if (!guess) {
-  } else {
+    document.querySelector(".message").textContent = "No number";
   }
 });
 
