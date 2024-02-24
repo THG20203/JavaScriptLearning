@@ -20,7 +20,8 @@ click that I'm interested in will happen. */
 its called the event handler. */
 document.querySelector(".check").addEventListener("click", function () {
   /* in function argument body, specify what should happen */
-  console.log(document.querySelector(".guess").value);
+  const guess = document.querySelector(".guess").value;
+  console.log(guess);
 });
 
 /* Conceptually, remember a function is just a value. If a function is just a value, we
