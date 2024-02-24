@@ -20,8 +20,16 @@ click that I'm interested in will happen. */
 its called the event handler. */
 document.querySelector(".check").addEventListener("click", function () {
   /* in function argument body, specify what should happen */
-  const guess = document.querySelector(".guess").value;
-  console.log(guess);
+  const guess = Number(document.querySelector(".guess").value);
+  console.log(guess, typeof guess);
+
+  /* if no guess? use !guess check if value is falsy If guess is falsy (such as 0, NaN, null, undefined, ''), 
+  !guess will be true, indicating that there is no valid guess. */
+  /* Remember any argument in an if statement parentheses will be evaluated to a boolean. and the
+  argument is evaluated to see if it is TRUE */
+  if (!guess) {
+  } else {
+  }
 });
 
 /* Conceptually, remember a function is just a value. If a function is just a value, we
