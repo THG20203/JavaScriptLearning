@@ -14,13 +14,18 @@ click that I'm interested in will happen. */
 /* so selecting element with class check */
 /* on check element, addEventListener. */
 
-/* In addEventListener, first pass in type of event. - this case click. */
+/* addEventListener METHOD, first pass in type of event. - this case click. */
 /* Second argument - tell eventListener what to do. Do that by specifying a function. */
 /* Function will contain code that should be executed when click event happens -> 
 its called the event handler. */
 document.querySelector(".check").addEventListener("click", function () {
   /* in function argument body, specify what should happen */
+  console.log(document.querySelector(".guess").value);
 });
 
 /* Conceptually, remember a function is just a value. If a function is just a value, we
 can pass it into another function as an argument. Like any other value, like a string or number. */
+
+/* note we don't call the function the is a second argument of addEventListener. We 
+only define the function, then pass it into an eventHandler. It is the JavaScript engine that 
+will call the function as soon as the event happens. */
