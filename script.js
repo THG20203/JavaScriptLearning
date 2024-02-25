@@ -2,10 +2,10 @@
 
 /* SECRET NUMBER VARIABLE */
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
-document.querySelector(".number").textContent = secretNumber;
-
 /* SCORE VARIABLE */
 let score = 20;
+
+document.querySelector(".number").textContent = secretNumber;
 
 /* GUESS BUTTON CLICK LOGIC */
 document.querySelector(".check").addEventListener("click", function () {
