@@ -86,5 +86,3 @@ only define the function, then pass it into an eventHandler. It is the JavaScrip
 will call the function as soon as the event happens. */
 
 --------------------------------------------------------------------------------------------------------
-
-IMPLEMENTING THE GAMES LOGIC
