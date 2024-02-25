@@ -13,7 +13,10 @@ document.querySelector(".number").textContent = secretNumber;
 /* Better way than reading score and changing it is creating a varaible, then updating
 that variable (decreasing it) then displaying it in score label. Good to have variable in 
 code and not just in the DOM. */
+/* let score 20 start at 20, make it a let so can decrease */
+let score = 20;
 
+/* GUESS BUTTON CLICK LOGIC */
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
 
@@ -23,7 +26,13 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent = "Correct Number";
   } else if (guess > secretNumber) {
     document.querySelector(".message").textContent = "Too high";
+    /* Cause score is wrong (too high) - decrease it */
+    score--;
+    /* Make sure the score changes on screen as a guess is too high */
+    document.querySelector(".score").textContent = score;
   } else if (guess < secretNumber) {
     document.querySelector(".message").textContent = "Too low";
+    /* Cause score is wrong - decrease it */
+    score--;
   }
 });
