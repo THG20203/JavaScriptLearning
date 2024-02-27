@@ -43,6 +43,6 @@ btnRoll.addEventListener("click", function () {
   } else {
     // Switch to next player
     /* if activePLayer is 0, switch to 1, else should be 0 */
-    activePlayer = activePlayer = 0 ? 1 : 0;
+    activePlayer = activePlayer === 0 ? 1 : 0;
   }
 });
